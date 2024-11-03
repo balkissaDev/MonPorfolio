@@ -1,0 +1,606 @@
+
+
+        <a href="#" class="logo">BOC<span>ملكة</span></a>
+        <div class="navbar">
+        <ul>
+       
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+    
+        <div class="menu-btn">
+            <li class="menu-btn">
+                <a href="javascript:void(0)" class="menu-btn">Menu</a>
+                <div class="menu-btn">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </li>
+            <span>INTRO</span>
+            <div class="bx bx-menu" id="menu-icon"> 
+    </div>
+    </div>
+</div>
+</ul>
+    
+</header>
+
+
+.logo{
+	color: var(--text-color);
+	font-size: 41px;
+	font-weight: 600;
+}
+.logo{
+	color: var(--text-color);
+	font-size: 41px;
+	font-weight: 600;
+}
+.logo span{
+	color: var(--main-color);
+}
+.home-img img{
+	animation: imgg 2s ease-in-out infinite;
+	animation-delay: 2s;
+}
+@keyframes imgg{
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(-22px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+/*navebar style*/
+.navbar{
+	display: flex;
+	z-index: 1000;
+		
+	}
+	.navbar a{
+		font-size: var(--bg-color);
+		font-weight: 500;
+		color: var(--text-color);
+		margin: 0 25px;
+		justify-content: space-between;
+		transition: transform 0.5s ease-in-out;
+		}
+	.navbar a:hover{
+		color: black;
+	}
+	.navbar a.active{
+		color: var(--main-color);
+	}
+	header .navbar li a.active,
+	    header .navbar li a:hover{
+		background: #fff;
+		color: white;
+		transform: translateY(-5px);
+		background: transparent;
+		display: inline-block;
+		border-radius: 100px;
+		background: linear-gradient(130.08deg, black 0%,black 100%);
+		box-shadow: 0px 20px 40px black;
+		border: 8px solid #141414;
+		cursor: pointer;
+		}
+
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            float: right;
+          }
+          
+          li {
+            float: right;
+          }
+          
+          li a, .menu-btn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          li a:hover, .menu-btn:hover .menu-btn {
+            background-color: red;
+          }
+          
+          li.menu-btn {
+            display: inline-block;
+          }
+          
+          .menu-btn{
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+          .menu-btn-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+          }
+          
+         .menu-btn a:hover {background-color: #f1f1f1;}
+          
+         .menu-btn:hover .dropdown-content {
+            display: block;
+          }
+
+
+
+          body{
+            background: var(--bg-color);
+            color: var(--text-color);
+            overflow-x: hidden;
+          }
+          header{
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 10%;
+            background: transparent;
+            transition: color .45s ease;
+            
+          }
+          .logo{
+            color: #ffae00;
+            font-weight: bolder;
+            font-size: 48px;
+          }
+           span h1{
+            color: #ffae00;
+          }
+          .home-img img{
+            animation: imgg 2s ease-in-out infinite;
+            animation-delay: 2s;
+          }
+          @keyframes imgg{
+            0%{
+              transform: translateY(0);
+            }
+            50%{
+              transform: translateY(-22px);
+            }
+            100%{
+              transform: translateY(0);
+            }
+          }
+            .menu-btn{
+              background: linear-gradient(130.08deg, #383838 0%, #1f0a0a 100%);
+              box-shadow: 0px 20px 40px #00000070;
+              padding:10px 20px;
+              border-radius: 100px;
+              display: flex;
+              align-items: center;
+              cursor: pointer;
+            }
+            .menu-icon{
+              font-size: 28px;
+              margin-left: 10px;
+              z-index: 6;
+            }
+          
+            /* Menu deroulant */
+          
+          
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            
+            }
+            
+            li {
+            float: left;
+            }
+            
+            li a, .dropbtn {
+            display: inline-block;
+            color: #ffae00;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+            
+            li a:hover, .dropdown:hover .dropbtn {
+            background-color:#f1f1f1;
+            }
+            
+            li.dropdown {
+            display: inline-block;
+            }
+            
+            .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            }
+            
+            .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            
+            }
+            
+            .dropdown-content a:hover {background-color: #f1f1f1;}
+            
+            .dropdown:hover .dropdown-content {
+            display: block;
+            }
+          
+              
+            
+          
+            section{
+              padding: 0 15%;
+            }
+            .home{
+              position: relative;
+              width: 90%;
+              height: 100vh;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              flex-wrap: 30px;
+            }
+            .home-img{
+              height: 500px;
+              width: 200px;
+            }
+            .home-img img{
+              height: 500px;
+              width: 500px;
+              object-fit: contain;
+              object-fit: cover;
+              border-radius: 50%;
+              border: 15px solid #ffae00;
+            }
+            .home-text h1 span{
+              font-size: var(--h-font);
+              margin: 50px 0;
+              color: #ffae00;
+            }
+            .home-text h1{
+              font-size: var(--h-font);
+              margin: 8px 0;
+              height: 80px;
+            }
+            .home-text p{
+              font-size: var(--p-font);
+              font-weight: 400;
+              color: #c3c3c3;
+              line-height: 30px;
+              margin-bottom: 30px;
+              height: 300px;
+            }
+            .about .about-content .colum{
+              width: 50%;
+          
+            }
+            .about .about-content .left{
+              display: flex;
+              justify-content: center;
+              margin: 0 auto 60px;
+            }
+            .about .about-content .right{
+              flex: 100%;
+            }
+            .Services .Serv-content .card{
+              width: calc(50% -10px);
+              margin-bottom: 20px;
+            }
+            .btn{
+              display: inline-block;
+              padding: 14px 34px;
+              background: var(--main-color);
+              color: var(--text-color);
+              border: 2px solid var(--main-color);
+                  font-size: 16px;
+              font-weight: 600;
+              border-radius: 8px;
+              transition: all 0.6s ease-in-out;
+              
+            }
+            .btn:hover{
+              transform: translateY(-5px);
+              background: transparent;
+              color: var(--main-color);
+              
+              background: var(--text-color);
+            }
+            .two{
+              background: #141414;
+              border: 2px solid #141414;
+              color: var(--text-color);
+              margin-left: 20px;
+          
+            }
+            .two:hover{
+              color: #141414;
+              background: var(--text-color);
+              border: 2px solid var(--text-color);
+          
+            }
+              .share{
+              position: absolute;
+              bottom: 3rem;
+              left: 15%;
+              display: flex;
+              align-items: center;
+              height: 370px;
+          
+            }
+            .share p{
+              font-size: 17px;
+              color: var(--text-color);
+              margin-right: 25px;
+            }
+            .social i{
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              height: 45px;
+              width: 45px;
+              background: linear-gradient(130.08deg, #383838 0%, #191919 100%);
+              box-shadow: 0px 20px 40px #00000070;
+              border: 1px solid #ffae00;
+              border-radius: 50%;
+              color: var(--text-color);
+              font-size: 20px;
+              margin: 0 7px;
+              transition: all 0.6s ease-in-out;	
+            }
+            .social i:hover{
+              transform: translateY(-15px);
+            }
+          
+            .input-container {
+              display: -ms-flexbox; /* IE10 */
+              display: flex;
+              width: 100%;
+              margin-bottom: 15px;
+              }
+              
+              .icon {
+              padding: 10px;
+              background: #ffae00;
+              color: white;
+              min-width: 50px;
+              text-align: center;
+              }
+              
+              .input-field {
+              width: 100%;
+              padding: 10px;
+              outline: none;
+              }
+              
+              .input-field:focus {
+              border: 2px solid dodgerblue;
+              }
+              
+              /* Set a style for the submit button */
+              .btn {
+              background-color: #ffae00;
+              color: white;
+              padding: 15px 20px;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+              opacity: 0.9;
+              }
+              .btn:hover {
+              opacity: 10;
+              }
+            
+          
+            /* footer section styling */
+          footer{
+            padding: 20px 23px;
+            color: #fff;
+            background: black;
+            max-width: 500000px;
+          }
+          footer span a{
+            color: #ffae00;
+          }
+          footer span a:hover{
+            text-decoration: none;
+          }
+              @media(max-width:1000px)
+           {
+            
+            
+             header ul{
+             
+              grid-template-columns: repeat(2,1fr);
+           }
+            
+              body{
+                  background: var(--bg-color);
+                  color: var(--text-color);
+                  overflow-x: hidden;
+              
+              }
+            header{
+              position: fixed;
+              top: 0;
+              right: 0;
+              width: 100%;
+              z-index: 1000;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              padding: 10px 5%;
+              background: transparent;
+              transition: color .45s ease;
+              background: #ffae00;
+              
+              
+            
+            }
+            
+          
+          }
+          @media(max-width:600px){
+            section{
+              padding: 0 5%;
+            }
+            body{
+              background: var(--bg-color);
+              color: var(--text-color);
+              overflow-x: hidden;
+            }
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+              }
+              
+          }
+          
+
+          
+
+
+
+          <!--home Section  -->
+<section class="home" id="home">
+  <div class="max-width">
+  <div class="home-text">
+    
+      <h1>Salut,je suis<span>Balkissa Oumar CISSE</span></h1>
+      <h1>Je suis<span>Developeueuse Web</span></h1>
+      <p>Je suis Developeuse web, Creéation des sites web et la conception des logiciels
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+           Possimus fuga quia expedita. Distinctio vel cum dolor
+            repudiandae sunt consectetur voluptate alias,
+            sequi consequuntur doloribus minima explicabo, esse est cumque sapiente.</p>
+      <div class="max-width">
+          <div class="share">
+              <div class="max-width">
+              
+              <div class="social">
+                  <a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a>
+             <a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a>
+             <a href="https://www.twitter.com/"><i class="bx bxl-twitter"></i></a>  
+              <a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a>
+              <a href="https://www.linkedin.com/feed/"><i class="bx bxl-linkedin"></i></a>
+              
+          </div>
+          </div>
+          </div>
+          </div>
+      </div>
+          <div class="main-btn">
+              <a href="https://www.facebook.com/" class="btn">Download CV</a>
+          <a href="#" class="btn two">Hire Me Now</a>
+      </div>   
+  </div>
+</div>
+      <div class="home-img">
+          <div class="max-width"> 
+          <img src="C:\Users\ba\OneDrive\Bureau\N OpenClass\Snapchat-1883860406.jpg">
+  </div>
+   </div>
+   
+  
+      </section>
+  
+      <div class="max-width">
+          <!-- Contact Start -->
+<section class="contact" id="contact">
+
+  <form action="/action_page.php" style="max-width:5000px;margin:auto">
+      <h2>Contact Me</h2>
+      <div class="input-container">
+        <i class="fa fa-user icon"></i>
+        <input class="input-field" type="text" placeholder="Username" name="usrnm">
+      </div>
+    
+      <div class="input-container">
+        <i class="fa fa-envelope icon"></i>
+        <input class="input-field" type="text" placeholder="Email" name="email">
+      </div>
+      
+      <div class="input-container">
+        <i class="fa fa-key icon"></i>
+        <input class="input-field" type="password" placeholder="Password" name="psw">
+      </div>
+    
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  
+ 
+</section>
+<section>
+<!-- footer section start -->
+<footer>
+  <span>created By <a href="#"> CodingBalkissa</a> <span class="fas fa-copyright"></span> 2024 All rights reserved.</span>
+  </footer>
+</section>
+</div>
+
+
+<a href="#" class="logo">BOC</a>
+    <div class="navbar">
+        <div class="max-width">
+    <ul class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Menu</a>
+              <div class="dropdown-content">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#Services">Services</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+                
+              </div>
+            </li>
+          </ul>
+        
+       
+        
+    </ul>
+</div>
+</div>
+   
+      </header>
